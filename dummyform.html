@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf8">
+
+    <title>Enquire now</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.3/css/all.min.css"/>
+
+    <!-Jquery CDN link->
+
+    <script src="https://code.jquery.com/jquery3.4.1.js"></script>
+
+    <!-CSS file->
+
+    <link rel="stylesheet" href="stylegg.css">
+
+    <!-JavaScript file->
+
+    <script src="function.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-Home page popup button->
+
+    <div class="startbtn">
+
+      <a href="#">Registration</a>
+
+    </div>
+
+    <!-popup box->
+
+    <div class="center modalbox">
+
+      <!-cancle button->
+
+      <div class="fas fatimes"></div>
+
+<!-Registration form->
+
+    <div class="form_container">
+
+     <form name="form">
+
+       <!-name input box->
+
+       <div class="form_wrap form_grp">
+
+          <div class="form_item">
+
+              <label>First Name</label>
+
+              <input type="text">
+
+          </div>
+
+          <div class="form_item">
+
+              <label>Last Name</label>
+
+              <input type="text">
+
+          </div>
+
+      </div>
+
+      <!-email input->
+
+      <div class="form_wrap">
+
+          <div class="form_item">
+
+              <label>Email Address</label>
+
+              <input type="text">
+
+          </div>
+
+      </div>
+
+        <div id="error_msg_text" class="red-color-msg paddingT4 height15"></div>
+
+
+      <!-city name input->
+      <div class="form_wrap">
+          <div class="form_item">
+              <label>City</label>
+              <select name="City">
+
+                  <option>Pimpri-Chinchwad</option>
+                  <option>Pune</option>
+                  <option>Mumbai</option>
+                  <option>Bangalore</option>
+
+              </select>
+          </div>
+      </div>
+
+      <!-phone no input->
+
+      <div class="form_wrap">
+
+          <div class="form_item">
+
+              <label>Phone</label>
+
+              <input type="text">
+
+              <div class="error" id="phone"></div>
+
+          </div>
+          <div>
+
+            <label class="quesText">What services do you need?</label></div>
+           <input type="checkbox" id="service1" name="1" value="Gardening & Maintainance Services">
+
+           <label for="service1">Gardening & Maintainance Services</label><br>
+
+           <input type="checkbox" id="service2" name="service2" value="Gardening & Maintainance Services">
+
+           <label for="service2">Gardening & Maintainance Services</label><br>
+
+           <input type="checkbox" id="service3" name="service3" value="Gardening & Maintainance Services">
+
+           <label for="service3">Gardening & Maintainance Services</label><br>
+    <br>
+      </div>
+
+      <div>
+<label for="start">Start date to avail:</label>
+<input type="date" id="start" name="start"
+       value="2023-01-01"
+       min="2023-01-01" max="2025-12-31">
+          </div>
+        </br>
+
+      <!-submit button->
+
+      <div class="btn">
+
+        <input type="submit" value="Submit">
+
+      </div>
+
+     </form>
+
+   </div>
+
+  </div>
+  </body>
+
+</html>
